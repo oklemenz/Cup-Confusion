@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings
+  CupConfusion
+
+  Created by Oliver on 18.03.12.
+  Copyright (c) 2012 Oliver Klemenz. All rights reserved.
+*/
+"WELCOME"             = "Wilkommen zu Cup Confusion!";
+"START"               = "Du startest mit einem Spieleinsatz von %i Punkten. Viel Glück!";
+"GAME_PAUSED"         = "Spiel pausiert. Tippe einen Becher um fortzuseten...";
+"OK_BTN"              = "OK";
+"CANCEL_BTN"          = "Abbrechen";
+"PLACE_BET"           = "Setze deine Wette...";
+"TAP_CUP"             = "Tippe einen Becher zum Spielen...";
+"FOLLOW_BALL"         = "Folge dem Becher mit dem Ball.";
+"CHOOSE_CUP"          = "Unter welchem Becher ist der Ball?";
+"BUY_POOL"            = "Kaufe Spieleinsatz um nochmal zu spielen.";
+"GAME_OVER"           = "Game Over!";
+"SELECT_POOL"         = "Wähle deinen Einkauf:";
+"NO_PRODUCTS"         = "Produkte werden geladen... Versuche es später noch einmal.";
+"YOU_WON_MSG"         = "Du hast gewonnen! Tippe um fortzusetzen.";
+"YOU_LOST_MSG"        = "Du hast verloren! Tippe um fortzusetzen.";
+"IN_APP_PURCHASE"     = "In-App Einkäufe";
+"PURCHASE_FAILED"     = "Einkauf fehlgeschlagen!";
+"PURCHASE_FAILED_MSG" = "Der In-App Einkauf ist fehlgeschlagen!";
+"GAME_CENTER"         = "Game Center";
+"GAME_CENTER_ERROR"   = "Fehler beim Verbinden zum Game Center!";

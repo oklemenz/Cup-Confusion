@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings
+  CupConfusion
+
+  Created by Oliver on 18.03.12.
+  Copyright (c) 2012 Oliver Klemenz. All rights reserved.
+*/
+"WELCOME"             = "Welcome to Cup Confusion!";
+"START"               = "You start with a pool of %i points. Good luck!";
+"GAME_PAUSED"         = "Game paused. Tap a cup to resume...";
+"OK_BTN"              = "OK";
+"CANCEL_BTN"          = "Cancel";
+"PLACE_BET"           = "Place your bet...";
+"TAP_CUP"             = "Tap a cup to play...";
+"FOLLOW_BALL"         = "Follow the cup with the ball.";
+"CHOOSE_CUP"          = "Under which cup is the ball?";
+"BUY_POOL"            = "Buy pool to play again.";
+"GAME_OVER"           = "Game Over!";
+"SELECT_POOL"         = "Select your purchase:";
+"NO_PRODUCTS"         = "Loading products... Please try again.";
+"YOU_WON_MSG"         = "You Won! Tap to continue.";
+"YOU_LOST_MSG"        = "You Lost! Tap to continue.";
+"IN_APP_PURCHASE"     = "In-App Purchases";
+"PURCHASE_FAILED"     = "Purchase failed!";
+"PURCHASE_FAILED_MSG" = "The In-App purchase failed!";
+"GAME_CENTER"         = "Game Center";
+"GAME_CENTER_ERROR"   = "Error connecting to Game Center!";

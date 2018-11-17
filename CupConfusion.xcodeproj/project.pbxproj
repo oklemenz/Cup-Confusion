@@ -144,12 +144,13 @@
 		2294B5F214CC21D300C746D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2294B5F414CC21D300C746D4 /* ViewController_iphone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController_iphone.h; sourceTree = "<group>"; };
 		2294B5F514CC21D300C746D4 /* ViewController_iphone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController_iphone.m; sourceTree = "<group>"; };
-		2294B5F814CC21D300C746D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iphone.xib; sourceTree = "<group>"; };
 		2294B5FF14CC225E00C746D4 /* GameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
 		2294B60014CC225E00C746D4 /* GameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
 		2294B62814CC555200C746D4 /* GameHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameHelper.h; sourceTree = "<group>"; };
 		2294B62914CC555200C746D4 /* GameHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameHelper.m; sourceTree = "<group>"; };
 		2294B63414CC91CF00C746D4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		229BDAC221A02AFC0030D645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ViewController_iphone.xib; sourceTree = "<group>"; };
+		229BDAC321A02AFC0030D645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ViewController_ipad.xib; sourceTree = "<group>"; };
 		22B37EE61551B6CF00ECE6BE /* ViewController_ipad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController_ipad.h; sourceTree = "<group>"; };
 		22B37EE71551B6CF00ECE6BE /* ViewController_ipad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController_ipad.m; sourceTree = "<group>"; };
 		22C84B241D8FF246008E0947 /* Icon-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-20.png"; path = "Images/Icon-20.png"; sourceTree = SOURCE_ROOT; };
@@ -161,7 +162,6 @@
 		22D61FBE1551E7C60052F590 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@2x~ipad.png"; path = "../Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
 		22E3BD791585082C0095BB02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		22E3BD7B158508460095BB02 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
-		22E3BD81158508E10095BB02 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_ipad.xib; sourceTree = "<group>"; };
 		22E3BD84158508E70095BB02 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/ViewController_ipad.xib; sourceTree = "<group>"; };
 		22F4459E1551E31F0007F5B5 /* arrow_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow_ipad.png; path = Images/arrow_ipad.png; sourceTree = SOURCE_ROOT; };
 		22F4459F1551E31F0007F5B5 /* arrow_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow_iphone.png; path = Images/arrow_iphone.png; sourceTree = SOURCE_ROOT; };
@@ -402,6 +402,7 @@
 			knownRegions = (
 				en,
 				de,
+				Base,
 			);
 			mainGroup = 2294B5D314CC21D200C746D4;
 			productRefGroup = 2294B5DF14CC21D300C746D4 /* Products */;
@@ -527,8 +528,8 @@
 		2294B5F714CC21D300C746D4 /* ViewController_iphone.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2294B5F814CC21D300C746D4 /* en */,
 				22C8FE81207CB36900A4F5F6 /* de */,
+				229BDAC221A02AFC0030D645 /* Base */,
 			);
 			name = ViewController_iphone.xib;
 			sourceTree = "<group>";
@@ -545,8 +546,8 @@
 		22E3BD82158508E10095BB02 /* ViewController_ipad.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				22E3BD81158508E10095BB02 /* en */,
 				22E3BD84158508E70095BB02 /* de */,
+				229BDAC321A02AFC0030D645 /* Base */,
 			);
 			name = ViewController_ipad.xib;
 			sourceTree = "<group>";

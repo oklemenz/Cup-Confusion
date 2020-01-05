@@ -397,7 +397,7 @@
 			};
 			buildConfigurationList = 2294B5D814CC21D200C746D4 /* Build configuration list for PBXProject "CupConfusion" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
